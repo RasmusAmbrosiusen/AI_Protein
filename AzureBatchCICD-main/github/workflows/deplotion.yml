@@ -1,3 +1,5 @@
+- name: deplotion
+
 on:
   push:
     branches:
@@ -5,7 +7,6 @@ on:
   workflow_dispatch:
 
 
-- name: Install Azure CLI
       run: |
         sudo apt-get update
         sudo apt-get install -y zip
